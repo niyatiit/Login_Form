@@ -1,0 +1,115 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Chela One', system-ui;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+}
+body,html{
+    height:100%;
+    width:100%;
+}
+#main{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.heding{
+    background-color: indianred;
+    text-align: center;
+    padding:10px; 
+    color:white;
+}
+.heading h1{
+    font-size: 1.5vw;
+}
+.heading p{
+    font-size: 1.3vw;
+   
+}
+#box{
+    border:1px solid black;
+    height:60vh;
+    width:30vw;
+    position: relative;
+    left:35%;
+    top:10%;
+    background-color: #b5838d;
+    display: none;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.btn button{
+    font-size: 1.5vw;
+    padding: 8px;
+    border-radius: 10px;
+    margin:10px;
+    background-color: #fac5a6;
+}
+button:hover{
+    color:rgb(4, 4, 4);
+    cursor: pointer;
+    background-color: #fae2e0;
+}
+#box h1{
+    text-align: center;
+}
+.inputbox{
+    display: flex;
+    flex-direction: column;
+    width:28vw;
+    left:1vw;
+    position: relative;
+}
+.inputbox input{
+    border-radius: 10px;
+    padding:15px;
+    font-size: 1.8vw;
+}
+.last-btn button{
+    font-size: 1.5vw;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left:12vw;
+}
+#sec_box{
+    border:1px solid black;
+    height:70vh;
+    width:31vw;
+    margin:10px;
+    position: relative;
+    /* top:-330px; */
+    background-color: rgb(165, 89, 113); 
+    left:35vw;
+    display: none;
+}
+#sec_box h1{
+    text-align: center;
+}
+.four_input input{
+    margin:18px;
+    padding:15px;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    width:28vw;
+}
+#sec_box button{
+    padding:15px;
+    margin-left:10vw;
+    font-size: 1.5vw;
+    border-radius: 10px;
+}
+#main_Final 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5vw;
+}
+

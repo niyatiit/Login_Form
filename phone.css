@@ -1,0 +1,50 @@
+@media only screen and (max-width: 650px) {
+    .btn {
+        padding:30px;
+        margin:10px;
+    }
+    
+    .btn button{
+        font-size: 4.5vw;
+    }
+    #box{
+        left:15vw;
+        position: relative;
+        width:70vw;
+        height:55vh;
+    }
+    .inputbox{
+        width:68vw;
+    }
+    .inputbox input{
+        font-size: 4.5vw;
+    }
+    .last-btn{
+        padding:30px;
+        margin:-10vw;
+        margin-left:5vw;
+    }
+    .last-btn button{
+        font-size: 4.5vw;
+    }
+    .last-btn h1{
+        left: -5vw;
+        position: relative;
+        font-size: 4.5vw;
+    }
+    #sec_box{
+        left:10vw;
+        position:relative ;
+        width:70vw;
+        height:70vh;
+    }
+    .four_input input{
+        width:60vw;
+        font-size: 3.5vw;
+    }
+    #sec_box button{
+        padding:10px;
+        margin-left:20vw;
+        font-size: 3.5vw;
+    }
+}
